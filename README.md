@@ -27,7 +27,7 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
    Or click **Code → Download ZIP** on GitHub and extract
 
 2. **Important: Keep files together**
-   - Place `LRMToolbox.atbx` and `LocalReliefModel.py` in the **same folder**
+   - Place `LRMToolbox.atbx` and `GenerateLocalReliefModel.py` in the **same folder**
    - Do not separate these files or the toolbox won't find the script
 
 3. **Open the toolbox in ArcGIS Pro:**
@@ -40,7 +40,7 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
    - Right-click the tool > **Properties** (or **Edit**)
    - Go to the **Execution** tab
    - Click the folder icon next to **Script File**
-   - Navigate to `LocalReliefModel.py` in the same folder
+   - Navigate to `GenerateLocalReliefModel.py` in the same folder
    - Click OK
    - This only needs to be done once
 
@@ -48,7 +48,7 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
 
 If you prefer to build the toolbox from scratch or want to customize it:
 
-1. **Download `LocalReliefModel.py`** from the repository
+1. **Download `GenerateLocalReliefModel.py`** from the repository
 
 2. **Open ArcGIS Pro**
 
@@ -79,7 +79,7 @@ Add three parameters in this order:
 | Output Local Relief Model | `output_lrm` | Raster Dataset | Required | Output | - |
 
 ### Execution Tab
-- **Script File:** Browse to `LocalReliefModel.py` from this repository
+- **Script File:** Browse to `GenerateLocalReliefModel.py` from this repository
 
 ## Tool Configuration
 1. **Run the tool** from your toolbox
