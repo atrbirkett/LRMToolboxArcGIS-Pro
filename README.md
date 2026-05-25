@@ -31,13 +31,13 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
    - Do not separate these files or the toolbox won't find the script
 
 3. **Open the toolbox in ArcGIS Pro:**
-   - In the Catalog pane, right-click **Folders** → **Add Folder Connection**
+   - In the Catalog pane, right-click **Folders** > **Add Folder Connection**
    - Navigate to the folder containing the downloaded files
    - Expand the folder to see `LRMToolbox.atbx`
    - Double-click the toolbox to open it
 
 4. **If you see a script path error:**
-   - Right-click the tool → **Properties** (or **Edit**)
+   - Right-click the tool > **Properties** (or **Edit**)
    - Go to the **Execution** tab
    - Click the folder icon next to **Script File**
    - Navigate to `LocalReliefModel.py` in the same folder
@@ -58,7 +58,7 @@ If you prefer to build the toolbox from scratch or want to customize it:
    - Name it whatever you prefer
 
 4. **Add the script tool:**
-   - Right-click the toolbox → **New > Script**
+   - Right-click the toolbox: **New > Script**
    - Configure as described in the detailed setup instructions below
 
 ## Tool Configuration
