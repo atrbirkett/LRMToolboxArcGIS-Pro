@@ -17,19 +17,69 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
 - Python 3.x (included with ArcGIS Pro)
 
 ## Installation
+
+### Quick Start (Using the Pre-Made Toolbox)
+
 1. **Download the repository:**
    ```bash
    git clone https://github.com/yourusername/arcgis-lrm-toolbox.git
    ```
-   Or download as ZIP and extract
+   Or click **Code → Download ZIP** on GitHub and extract
+
+2. **Important: Keep files together**
+   - Place `LRMToolbox.atbx` and `LocalReliefModel.py` in the **same folder**
+   - Do not separate these files or the toolbox won't find the script
+
+3. **Open the toolbox in ArcGIS Pro:**
+   - In the Catalog pane, right-click **Folders** → **Add Folder Connection**
+   - Navigate to the folder containing the downloaded files
+   - Expand the folder to see `LRMToolbox.atbx`
+   - Double-click the toolbox to open it
+
+4. **If you see a script path error:**
+   - Right-click the tool → **Properties** (or **Edit**)
+   - Go to the **Execution** tab
+   - Click the folder icon next to **Script File**
+   - Navigate to `LocalReliefModel.py` in the same folder
+   - Click OK
+   - This only needs to be done once
+
+### Alternative: Create Your Own Toolbox
+
+If you prefer to build the toolbox from scratch or want to customize it:
+
+1. **Download `LocalReliefModel.py`** from the repository
+
 2. **Open ArcGIS Pro**
-3. **Create a new toolbox** (or use an existing one):
+
+3. **Create a new toolbox:**
    - In the Catalog pane, right-click a folder
    - Select **New > Toolbox**
-   - Name it `LocalReliefModel.atbx`
+   - Name it whatever you prefer
+
 4. **Add the script tool:**
    - Right-click the toolbox → **New > Script**
-   - Configure as described below
+   - Configure as described in the detailed setup instructions below
+
+## Tool Configuration
+
+### General Tab
+- **Name:** `Generate_Local_Relief_Model`
+- **Label:** `Generate Local Relief Model`
+- **Description:** Creates a local relief model by removing regional topographic trends from a DEM
+
+### Parameters Tab
+
+Add three parameters in this order:
+
+| Label | Name | Data Type | Type | Direction | Default |
+|-------|------|-----------|------|-----------|---------|
+| Input DEM | `input_dem` | Raster Dataset | Required | Input | - |
+| Neighborhood Radius (cells) | `neighborhood_radius` | Long | Required | Input | 10 |
+| Output Local Relief Model | `output_lrm` | Raster Dataset | Required | Output | - |
+
+### Execution Tab
+- **Script File:** Browse to `LocalReliefModel.py` from this repository
 
 ## Tool Configuration
 1. **Run the tool** from your toolbox
