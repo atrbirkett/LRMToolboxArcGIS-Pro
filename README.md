@@ -14,7 +14,6 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
 ## Requirements
 - **ArcGIS Pro** (any recent version)
 - **Spatial Analyst Extension** (required)
-- Python 3.x (included with ArcGIS Pro)
 
 ## Installation
 
@@ -24,7 +23,7 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
    ```bash
    git clone https://github.com/atrbirkett/LRMToolboxArcGIS-Pro/
    ```
-   Or click **Code → Download ZIP** on GitHub and extract
+   Or click **Code > Download ZIP** on GitHub and extract
 
 2. **Important: Keep files together**
    - Place `LRMToolbox.atbx` and `GenerateLocalReliefModel.py` in the **same folder**
