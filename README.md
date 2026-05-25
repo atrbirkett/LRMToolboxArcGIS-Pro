@@ -22,7 +22,7 @@ A Local Relief Model (LRM) is a visualization technique that enhances subtle top
 
 1. **Download the repository:**
    ```bash
-   git clone https://github.com/yourusername/arcgis-lrm-toolbox.git
+   git clone https://github.com/atrbirkett/LRMToolboxArcGIS-Pro/
    ```
    Or click **Code → Download ZIP** on GitHub and extract
 
