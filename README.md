@@ -118,7 +118,7 @@ For best results when displaying the LRM:
 If you use this tool in published research, please cite:
 ```
 Birkett, A. T. R. (2025). Local Relief Model Toolbox for ArcGIS Pro. 
-GitHub repository: [https://github.com/atrbirkett/LRMToolboxArcGIS-Pro](https://github.com/atrbirkett/LRMToolboxArcGIS-Pro)
+GitHub repository: [https://github.com/atrbirkett/LRMToolboxArcGIS-Pro](https://github.com/atrbirkett/LRMToolboxArcGIS-Pro) 10.6084/m9.figshare.32397828
 ```
 
 ## Contact
